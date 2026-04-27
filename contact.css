@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container */
+.contact-box {
+    background-color: white;
+    padding: 40px;
+    width: 350px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Heading */
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+    align-items: center;
+}
+
+/* Text */
+p {
+    margin-bottom: 20px;
+    
+    font-size: 16px;
+    color: #555;
+}
